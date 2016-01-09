@@ -1,0 +1,41 @@
+.align{
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content:space-around;
+}
+.container{
+	/*display: flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content:space-around;*/
+	height: 500px;
+	width: 320px;
+	background-color: black;
+}
+
+.disk{
+	background-color: red;
+	color: white;
+	font-size: 30px;
+	display: block;
+	position: center;
+	text-align: center;
+ 	border: 2px solid white;
+ 	margin: auto;
+ 	
+}
+#disk1{
+	width: 150px;
+	height: 65px;
+}
+
+#disk2{
+	width: 200px;
+	height: 75px;
+}
+
+#disk3{
+	width: 250px;
+	height: 75px;
+}
