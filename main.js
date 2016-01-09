@@ -42,7 +42,9 @@ function containClick(event){
 
 function diskMove(event){
 	console.log("In Move Function", $firstContainer);
-	console.log($(event.target).hasClass('container'))
+	console.log($(event.target).hasClass('container'));
+	$pieceToMove.css('background-color', 'red');
+
 	var $targetContainer;
 	if ($(event.target).hasClass('container')){
 		$targetContainer= $(event.target);
